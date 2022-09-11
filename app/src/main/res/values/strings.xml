@@ -1,18 +1,19 @@
 <resources>
     <string name="app_name">ConsertandoOTabu</string>
-    <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="texto_noticia_1">A dirma fez o quê ??? 👀😎😢🤢</string>
     <string name="texto_noticia_2">O bolsonaro fez o quê ??? 🐰🅱👌🤷‍♀️</string>
     <string name="gabriel_ass">Gabriel Fonseca</string>
     <string name="augusto_ass">Augusto Soares</string>
     <string name="proxima">Próxima</string>
     <string name="anterior">Anterior</string>
+    <string name="titulo_noticia_5">Petrobras (PETR3;PETR4) prorroga prazo para investidores interessados em concessões na Bacia Potiguar</string>
+    <string name="conteudo_noticia_5">A Petrobras (PETR3;PETR4) comunicou nesta quinta-feira (8) a prorrogação dos prazos para a manifestação de interesse em participar da oportunidade referente à venda de 40% da sua participação nas concessões exploratórias BM-POT-17, em que se desenvolve o Plano de Avaliação de Descoberta do poço Pitu (Blocos POT-M-853 e POT-M-855), e a concessão POT-M-762_R15 (Bloco POT-M-762). Os ativos estão localizadas em águas profundas na Bacia Potiguar – Margem Equatorial – no litoral do Rio Grande do Norte.</string>
+    <string name="titulo_noticia_4">Charles 3º: Antigua e Barbuda planeja referendo sobre manter rei como chefe de Estado</string>
+    <string name="titulo_noticia_3">Após ofensiva ucraniana, governador russo diz que \'milhares\' de pessoas saíram de Kharkiv, na Ucrânia, e entraram na Rússia</string>
+    <string name="titulo_noticia_2">Piloto brasileiro campeão!</string>
+    <string name="titulo_noticia_1">CVM quer contribuir com PL que vai regular criptomoedas no Brasil</string>
+    <string name="conteudo_noticia_1">A Comissão de Valores Mobiliários do Brasil (CVM) informou que quer colaborar com o projeto de lei que vai regulamentar as criptomoedas no Brasil.\n\nDe acordo com o presidente da CVM, João Pedro Nascimento, o objetivo do regulador é ajudar a aperfeiçoar o PL que atualmente está em tramitação na Câmara dos Deputados após a aprovação no Senado.\n\nJoão Pedro disse ainda que a ideia é que a regulação do setor seja “não invasiva”\n\n“Estamos trabalhando, sim, com uma regulação não invasiva e de braços dados com o Banco Central. Daremos uma contribuição para os projetos de lei que surgirem, esse inclusive que já está bem próximo de uma definição”, disse ele durante seminário promovido pela OAB (Ordem dos Advogados do Brasil), conforme noticiou o Valor Econômico.</string>
+    <string name="conteudo_noticia_2">Histórico! A disputa não foi na pista, como todos imaginavam, mas o resultado veio: Felipe Drugovich é o primeiro campeão brasileiro da história da F2! O piloto da MP Motorsport abandonou logo na primeira volta após toque com Amaury Cordeel e, do pitlane, viu o rival Theo Pourchaire ter problemas em disputa com Liam Lawson.</string>
+    <string name="conteudo_noticia_3">Milhares de pessoas deixaram a região de Kharkiv, na Ucrânia, palco da contraofensiva de Kiev, para a Rússia em 24 horas, afirmou neste domingo o governador da região russa de Belgorod, que faz fronteira com a Ucrânia.\n\n\"Não foi a noite ou a manhã mais tranquila. Nas últimas 24 horas, milhares de pessoas cruzaram a fronteira\", disse Viacheslav Gladkov em um vídeo postado no Telegram. No início deste mês, o exército ucraniano anunciou pela primeira vez uma contraofensiva no sul, antes de fazer um avanço surpresa nesta semana contra as linhas russas no nordeste, na região de Kharkiv.</string>
+    <string name="conteudo_noticia_4">Antigua e Barbuda deve fazer um referendo sobre se tornar uma república após a morte da rainha Elizabeth 2ª, segundo afirmou o primeiro-ministro do país no domingo (11/09).\n\nAntigua e Barbuda é um dos 14 países, além do Reino Unido, que tem o monarca britânico, agora Charles 3º, como chefe de Estado. O primeiro-ministro Gaston Browne disse que um referendo pode acontecer nos próximos três anos, mas disse que isso \"não é um ato de hostilidade\".\n\nEle fez o anúncio após cerimônia de confirmação de Charles 3º como chefe de Estado da nação caribenha.\n\nBrowne disse que vai promover o referendo se for reeleito no ano que vem, o que é esperado, uma vez que seu partido comanda atualmente 15 dos 17 assentos do Parlamento.</string>
 </resources>

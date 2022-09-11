@@ -56,57 +56,43 @@ public class MainActivity extends AppCompatActivity {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
         NoticiaVo noticia1 = new NoticiaVo();
-        noticia1.setConteudoNoticia("A Comissão de Valores Mobiliários do Brasil (CVM) informou que quer colaborar com o projeto de lei que vai regulamentar as criptomoedas no Brasil.\n" +
-                "\n" +
-                "De acordo com o presidente da CVM, João Pedro Nascimento, o objetivo do regulador é ajudar a aperfeiçoar o PL que atualmente está em tramitação na Câmara dos Deputados após a aprovação no Senado.\n" +
-                "\n" +
-                "João Pedro disse ainda que a ideia é que a regulação do setor seja “não invasiva”\n" +
-                "\n" +
-                "“Estamos trabalhando, sim, com uma regulação não invasiva e de braços dados com o Banco Central. Daremos uma contribuição para os projetos de lei que surgirem, esse inclusive que já está bem próximo de uma definição”, disse ele durante seminário promovido pela OAB (Ordem dos Advogados do Brasil), conforme noticiou o Valor Econômico.");
+        noticia1.setConteudoNoticia(getString(R.string.conteudo_noticia_1));
         noticia1.setAutor(R.string.gabriel_ass);
         noticia1.setDataDaPostagem(sdf.format(new Date()));
         noticia1.setImagem(R.drawable.noticia_cripto);
-        noticia1.setTitulo("CVM quer contribuir com PL que vai regular criptomoedas no Brasil");
+        noticia1.setTitulo(getString(R.string.titulo_noticia_1));
         noticias[0] = noticia1;
 
         NoticiaVo noticia2 = new NoticiaVo();
-        noticia2.setConteudoNoticia("Histórico! A disputa não foi na pista, como todos imaginavam, mas o resultado veio: Felipe Drugovich é o primeiro campeão brasileiro da história da F2! O piloto da MP Motorsport abandonou logo na primeira volta após toque com Amaury Cordeel e, do pitlane, viu o rival Theo Pourchaire ter problemas em disputa com Liam Lawson.");
+        noticia2.setConteudoNoticia(getString(R.string.conteudo_noticia_2));
         noticia2.setAutor(R.string.augusto_ass);
         noticia2.setDataDaPostagem(sdf.format(new Date()));
         noticia2.setImagem(R.drawable.noticia_formula_2);
-        noticia2.setTitulo("Piloto brasileiro campeão!");
+        noticia2.setTitulo(getString(R.string.titulo_noticia_2));
         noticias[1] = noticia2;
 
         NoticiaVo noticia3 = new NoticiaVo();
-        noticia3.setConteudoNoticia("Milhares de pessoas deixaram a região de Kharkiv, na Ucrânia, palco da contraofensiva de Kiev, para a Rússia em 24 horas, afirmou neste domingo o governador da região russa de Belgorod, que faz fronteira com a Ucrânia.\n" +
-                "\n" +
-                "\"Não foi a noite ou a manhã mais tranquila. Nas últimas 24 horas, milhares de pessoas cruzaram a fronteira\", disse Viacheslav Gladkov em um vídeo postado no Telegram. No início deste mês, o exército ucraniano anunciou pela primeira vez uma contraofensiva no sul, antes de fazer um avanço surpresa nesta semana contra as linhas russas no nordeste, na região de Kharkiv.");
+        noticia3.setConteudoNoticia(getString(R.string.conteudo_noticia_3));
         noticia3.setAutor(R.string.gabriel_ass);
         noticia3.setDataDaPostagem(sdf.format(new Date()));
         noticia3.setImagem(R.drawable.noticia_guerra);
-        noticia3.setTitulo("Após ofensiva ucraniana, governador russo diz que 'milhares' de pessoas saíram de Kharkiv, na Ucrânia, e entraram na Rússia");
+        noticia3.setTitulo(getString(R.string.titulo_noticia_3));
         noticias[2] = noticia3;
 
         NoticiaVo noticia4 = new NoticiaVo();
-        noticia4.setConteudoNoticia("Antigua e Barbuda deve fazer um referendo sobre se tornar uma república após a morte da rainha Elizabeth 2ª, segundo afirmou o primeiro-ministro do país no domingo (11/09).\n" +
-                "\n" +
-                "Antigua e Barbuda é um dos 14 países, além do Reino Unido, que tem o monarca britânico, agora Charles 3º, como chefe de Estado. O primeiro-ministro Gaston Browne disse que um referendo pode acontecer nos próximos três anos, mas disse que isso \"não é um ato de hostilidade\".\n" +
-                "\n" +
-                "Ele fez o anúncio após cerimônia de confirmação de Charles 3º como chefe de Estado da nação caribenha.\n" +
-                "\n" +
-                "Browne disse que vai promover o referendo se for reeleito no ano que vem, o que é esperado, uma vez que seu partido comanda atualmente 15 dos 17 assentos do Parlamento.");
+        noticia4.setConteudoNoticia(getString(R.string.conteudo_noticia_4));
         noticia4.setAutor(R.string.augusto_ass);
         noticia4.setDataDaPostagem(sdf.format(new Date()));
         noticia4.setImagem(R.drawable.noticia_antigua);
-        noticia4.setTitulo("Charles 3º: Antigua e Barbuda planeja referendo sobre manter rei como chefe de Estado");
+        noticia4.setTitulo(getString(R.string.titulo_noticia_4));
         noticias[3] = noticia4;
 
         NoticiaVo noticia5 = new NoticiaVo();
-        noticia5.setConteudoNoticia("A Petrobras (PETR3;PETR4) comunicou nesta quinta-feira (8) a prorrogação dos prazos para a manifestação de interesse em participar da oportunidade referente à venda de 40% da sua participação nas concessões exploratórias BM-POT-17, em que se desenvolve o Plano de Avaliação de Descoberta do poço Pitu (Blocos POT-M-853 e POT-M-855), e a concessão POT-M-762_R15 (Bloco POT-M-762). Os ativos estão localizadas em águas profundas na Bacia Potiguar – Margem Equatorial – no litoral do Rio Grande do Norte.");
+        noticia5.setConteudoNoticia(getString(R.string.conteudo_noticia_5));
         noticia5.setAutor(R.string.gabriel_ass);
         noticia5.setDataDaPostagem(sdf.format(new Date()));
         noticia5.setImagem(R.drawable.noticia_petra);
-        noticia5.setTitulo("Petrobras (PETR3;PETR4) prorroga prazo para investidores interessados em concessões na Bacia Potiguar");
+        noticia5.setTitulo(getString(R.string.titulo_noticia_5));
         noticias[4] = noticia5;
 
         definirPrimeiraNoticia();

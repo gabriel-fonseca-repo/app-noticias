@@ -130,13 +130,16 @@ public class MainActivity extends AppCompatActivity {
         TextView dataText = findViewById(R.id.data_noticia);
         TextView conteudoText = findViewById(R.id.conteudo_noticia);
         TextView tituloText = findViewById(R.id.titulo_noticia);
+        TextView indiceText = findViewById(R.id.indice_noticia);
         ImageView imagem = findViewById(R.id.imagem);
 
         autorText.setText(noticiaDaVez.getAutor());
         dataText.setText(noticiaDaVez.getDataDaPostagem());
         conteudoText.setText(noticiaDaVez.getConteudoNoticia());
         tituloText.setText(noticiaDaVez.getTitulo());
+        indiceText.setText(Integer.toString(indiceNoticia + 1));
         imagem.setImageResource(noticiaDaVez.getImagem());
+
     }
 
 }

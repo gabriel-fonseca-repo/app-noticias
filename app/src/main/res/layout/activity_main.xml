@@ -108,6 +108,27 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="@dimen/card_text_margin"
+                android:layout_marginTop="@dimen/card_text_margin"
+                android:layout_marginEnd="@dimen/card_text_margin"
+                android:layout_marginBottom="@dimen/card_text_margin"
+                android:onClick="noticiaAnterior"
+                android:text="@string/anterior" />
+
+            <TextView
+                android:id="@+id/indice_noticia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@color/black"
+                android:gravity="center"
+                android:text="1"></TextView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_marginStart="@dimen/card_text_margin"
                 android:layout_marginTop="@dimen/card_text_margin"
@@ -116,16 +137,6 @@
                 android:onClick="proximaNoticia"
                 android:text="@string/proxima" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginStart="@dimen/card_text_margin"
-                android:layout_marginTop="@dimen/card_text_margin"
-                android:layout_marginEnd="@dimen/card_text_margin"
-                android:layout_marginBottom="@dimen/card_text_margin"
-                android:onClick="noticiaAnterior"
-                android:text="@string/anterior" />
         </LinearLayout>
     </RelativeLayout>
 </LinearLayout>

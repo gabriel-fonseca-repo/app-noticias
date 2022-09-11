@@ -4,4 +4,6 @@
     <dimen name="card_top_margin">20dp</dimen>
     <dimen name="card_image_height">250dp</dimen>
     <dimen name="card_text_margin">5dp</dimen>
+    <dimen name="button_bottom_margin">20dp</dimen>
+    <dimen name="padding_conteudo_noticia">13dp</dimen>
 </resources>

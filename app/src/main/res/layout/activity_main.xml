@@ -27,7 +27,7 @@
                 android:layout_marginTop="@dimen/card_top_margin"
                 android:layout_marginRight="@dimen/layout_sides_margin"
                 android:layout_marginBottom="@dimen/layout_sides_margin"
-                android:background="@color/gray"
+                android:background="#00FFFFFF"
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
 
@@ -37,14 +37,17 @@
                     android:layout_height="@dimen/card_image_height"
                     android:cropToPadding="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/dilma_come_pombo"></ImageView>
+                    android:src="@drawable/noticia_cripto"></ImageView>
 
                 <TextView
                     android:id="@+id/titulo_noticia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/card_text_margin"
-                    android:text="@string/texto_noticia_1" />
+                    android:text="@string/texto_noticia_1"
+                    android:textSize="22dp"
+                    android:textFontWeight="700"
+                    android:textColor="@color/black"/>
 
                 <RelativeLayout
                     android:layout_width="match_parent"

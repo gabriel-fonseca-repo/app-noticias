@@ -101,6 +101,30 @@ public class MainActivity extends AppCompatActivity {
         noticia4.setTitulo("Charles 3º: Antigua e Barbuda planeja referendo sobre manter rei como chefe de Estado");
         noticias[3] = noticia4;
 
+        NoticiaVo noticia5 = new NoticiaVo();
+        noticia5.setConteudoNoticia("A Petrobras (PETR3;PETR4) comunicou nesta quinta-feira (8) a prorrogação dos prazos para a manifestação de interesse em participar da oportunidade referente à venda de 40% da sua participação nas concessões exploratórias BM-POT-17, em que se desenvolve o Plano de Avaliação de Descoberta do poço Pitu (Blocos POT-M-853 e POT-M-855), e a concessão POT-M-762_R15 (Bloco POT-M-762). Os ativos estão localizadas em águas profundas na Bacia Potiguar – Margem Equatorial – no litoral do Rio Grande do Norte.");
+        noticia5.setAutor(R.string.gabriel_ass);
+        noticia5.setDataDaPostagem(sdf.format(new Date()));
+        noticia5.setImagem(R.drawable.noticia_petra);
+        noticia5.setTitulo("Petrobras (PETR3;PETR4) prorroga prazo para investidores interessados em concessões na Bacia Potiguar");
+        noticias[4] = noticia5;
+
+        definirPrimeiraNoticia();
+    }
+
+    private void definirPrimeiraNoticia() {
+        noticiaDaVez = noticias[0];
+        TextView autorText = findViewById(R.id.autor_noticia);
+        TextView dataText = findViewById(R.id.data_noticia);
+        TextView conteudoText = findViewById(R.id.conteudo_noticia);
+        TextView tituloText = findViewById(R.id.titulo_noticia);
+        ImageView imagem = findViewById(R.id.imagem);
+
+        autorText.setText(noticiaDaVez.getAutor());
+        dataText.setText(noticiaDaVez.getDataDaPostagem());
+        conteudoText.setText(noticiaDaVez.getConteudoNoticia());
+        tituloText.setText(noticiaDaVez.getTitulo());
+        imagem.setImageResource(noticiaDaVez.getImagem());
     }
 
     public void proximaNoticia(View view) {
@@ -127,7 +151,6 @@ public class MainActivity extends AppCompatActivity {
         conteudoText.setText(noticiaDaVez.getConteudoNoticia());
         tituloText.setText(noticiaDaVez.getTitulo());
         imagem.setImageResource(noticiaDaVez.getImagem());
-        System.out.println(indiceNoticia);
     }
 
 }

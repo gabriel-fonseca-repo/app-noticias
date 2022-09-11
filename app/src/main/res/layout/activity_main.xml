@@ -20,77 +20,81 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <LinearLayout
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="@dimen/layout_sides_margin"
-                android:layout_marginTop="@dimen/card_top_margin"
-                android:layout_marginRight="@dimen/layout_sides_margin"
-                android:layout_marginBottom="@dimen/layout_sides_margin"
-                android:background="#00FFFFFF"
-                android:gravity="center_horizontal"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/imagem"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/card_image_height"
-                    android:cropToPadding="true"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/noticia_cripto"></ImageView>
-
-                <TextView
-                    android:id="@+id/titulo_noticia"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/card_text_margin"
-                    android:text="@string/texto_noticia_1"
-                    android:textSize="22dp"
-                    android:textFontWeight="700"
-                    android:textColor="@color/black"/>
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/autor_noticia"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentLeft="true"
-                        android:layout_marginStart="@dimen/card_text_margin"
-                        android:layout_marginTop="@dimen/card_text_margin"
-                        android:layout_marginEnd="@dimen/card_text_margin"
-                        android:layout_marginBottom="@dimen/card_text_margin"
-                        android:text="@string/gabriel_ass" />
-
-                    <TextView
-                        android:id="@+id/data_noticia"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentRight="true"
-                        android:layout_marginStart="@dimen/card_text_margin"
-                        android:layout_marginTop="@dimen/card_text_margin"
-                        android:layout_marginEnd="@dimen/card_text_margin"
-                        android:layout_marginBottom="@dimen/card_text_margin"
-                        android:text="03/07/2014" />
-                </RelativeLayout>
+                android:layout_height="match_parent">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/layout_sides_margin"
+                    android:layout_marginTop="@dimen/card_top_margin"
+                    android:layout_marginRight="@dimen/layout_sides_margin"
+                    android:layout_marginBottom="@dimen/layout_sides_margin"
+                    android:background="#00FFFFFF"
                     android:gravity="center_horizontal"
-                    android:padding="@dimen/padding_conteudo_noticia">
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imagem"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/card_image_height"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/noticia_cripto"></ImageView>
 
                     <TextView
-                        android:id="@+id/conteudo_noticia"
+                        android:id="@+id/titulo_noticia"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/gabriel_ass"></TextView>
+                        android:layout_margin="@dimen/card_text_margin"
+                        android:text="@string/texto_noticia_1"
+                        android:textFontWeight="700"
+                        android:textSize="22dp" />
 
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/autor_noticia"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginStart="@dimen/card_text_margin"
+                            android:layout_marginTop="@dimen/card_text_margin"
+                            android:layout_marginEnd="@dimen/card_text_margin"
+                            android:layout_marginBottom="@dimen/card_text_margin"
+                            android:text="@string/gabriel_ass" />
+
+                        <TextView
+                            android:id="@+id/data_noticia"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginStart="@dimen/card_text_margin"
+                            android:layout_marginTop="@dimen/card_text_margin"
+                            android:layout_marginEnd="@dimen/card_text_margin"
+                            android:layout_marginBottom="@dimen/card_text_margin"
+                            android:text="03/07/2014" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/padding_conteudo_noticia">
+
+                        <TextView
+                            android:id="@+id/conteudo_noticia"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/gabriel_ass"></TextView>
+
+                    </LinearLayout>
                 </LinearLayout>
-            </LinearLayout>
+            </ScrollView>
         </LinearLayout>
 
         <LinearLayout
